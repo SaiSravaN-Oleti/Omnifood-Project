@@ -53,7 +53,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -102,6 +102,7 @@ body {
   padding: 1.6rem 3.2rem;
   text-decoration: none;
   border-radius: 1rem;
+  font-weight: 600;
   /* put transition: on orginal "State"; */
   transition: all 0.3s;
 }

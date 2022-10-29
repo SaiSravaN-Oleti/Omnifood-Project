@@ -36,3 +36,24 @@ Medium: 11px
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+
+html {
+  /*Based Users browsers Percentage i need default 10px
+  but if i use that px if users scales down font size it may cause low scale problem Instead of px use this formula 
+  10px/16px = 0.625=62.5%  
+  Use above percentage*/
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}

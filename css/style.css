@@ -102,7 +102,8 @@ body {
   padding: 1.6rem 3.2rem;
   text-decoration: none;
   border-radius: 1rem;
-
+  /* put transition: on orginal "State"; */
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -126,5 +127,10 @@ body {
   background-color: #fdf2e9;
   /* border: 3px solid #fff; */
   /* trick to make | inset | offset-x | offset-y | color */
-  box-shadow: inset 0 0 3px #fff;
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+}
+
+/* adding healper class without using flex or grid to make gap b/n 2 buttons*/
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }

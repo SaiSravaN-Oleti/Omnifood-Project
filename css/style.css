@@ -75,10 +75,6 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.hero-img {
-  /* here 100% means its parents full size like here .hero-img-box divs width means its fit in this box*/
-  width: 100%;
-}
 
 .heading-primary {
   font-size: 6.2rem;
@@ -134,4 +130,42 @@ body {
 /* adding healper class without using flex or grid to make gap b/n 2 buttons*/
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+  display: flex;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+.hero-img {
+  /* here 100% means its parents full size like here .hero-img-box divs width means its fit in this box*/
+  width: 100%;
 }

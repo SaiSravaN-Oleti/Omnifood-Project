@@ -57,3 +57,17 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.hero {
+  /*130rem = 1300px , max-width = its depend on parent width*/
+  max-width: 130rem;
+  /*Making to center*/
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  /* here 100% means its parents full size like here .hero-img-box divs width means its fit in this box*/
+  width: 100%;
+}
